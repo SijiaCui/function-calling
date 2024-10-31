@@ -1,6 +1,6 @@
 from llms import *
-from tools import *
-from tools_desc import *
+from tools.tools import *
+from tools.tools_desc import *
 
 def responses(llm: LLM, tools=None) -> list:
     import json
